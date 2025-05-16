@@ -1,0 +1,279 @@
+*{
+    margin-top: 0px;
+}
+.h-sec{
+    text-align: center;
+    background-color:#FF4500;
+    color:#040720;
+    font-family:monospace;
+    font-size: x-large;
+    font-weight: bolder;
+}
+body{
+    background-color:burlywood;
+    background-image: url(/images/81c2c369-1cb6-4d27-93fa-7adc9d4680e4.jpeg);
+    background-size: contain;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.box-1{
+    width: 900px;
+    height: 60vh;
+    padding: 60px;
+    border: 3px solid black;
+    margin: 60px;
+    box-sizing: border-box;
+    background-color:black;
+    color:darkkhaki;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    background-image: url(https://img.freepik.com/premium-photo/black-wireless-headphones-isolated-black-background_95544-15.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    animation-name: anime-box1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.box-2{
+    width: 900px;
+    height: 60vh;
+    padding: 60px;
+    border: 3px solid black;
+    margin: 60px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    background-image: url(https://www.vodafone.co.uk/newscentre/app/uploads/2023/03/Samsung-Galaxy-A54-and-A34-5G-hero-image-768x511.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    color:#12181C;
+    animation-name: anime-box2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.box-3{
+    width: 900px;
+    height: 60vh;
+    padding: 60px;
+    border: 3px solid black;
+    margin: 60px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    background-image: url(https://wallpapers.com/images/high/longines-conquest-classic-chronograph-pus3wxps0zj3n7q3.webp);
+    color: #D8DDE6;
+    animation-name: anime-box3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.box-4{
+    width: 900px;
+    height: 60vh;
+    padding: 60px;
+    border: 3px solid black;
+    margin: 60px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    background-image: url(https://wallpapers.com/images/high/shoes-background-f6imemf4t40dhuja.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#dc3545;
+    animation-name: anime-box4;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+    
+}
+.box-5{
+    width: 900px;
+    height: 60vh;
+    padding: 60px;
+    border: 3px solid black;
+    margin: 60px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    background-image: url(https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/628x301/9df78eab33525d08d6e5fb8d27136e95//j/i/brown-gold-tortoise-full-rim-square-john-jacobs-jj-tints-jj-s16952-c2-sunglasses_img_6925_07_03_2024.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-color: white;
+    color:#9E4E2B;
+    text-decoration:solid;
+    animation-name: anime-box5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes anime-box1 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes anime-box2 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes anime-box3 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes anime-box4 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes anime-box5 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.b-1{
+    color:#797979;
+}
+.b-1a{
+    color:#A8A9AD;
+}
+.b-2{
+    color:#3A3B3C;
+}
+.b-2a{
+    color:#34322C;
+}
+.b-3{
+    color:#616D7E;
+}
+.b-3a{
+    color: #B6B6B6;
+}
+.b-4{
+    color:#C83F49;
+}
+.b-4a{
+    color:#B6B6B6;
+}
+.b-5{
+    color:#5C3317
+}
+.b-5a{
+    color:#A52A2A
+}
+.btn-1{
+      background-color: #E5E4E2; 
+      border: none;
+      color: #0C090A;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 12px;
+      cursor: pointer;
+      border-radius: 20px; 
+      transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.h-sec:hover{
+    transform: scale(1.2);
+    background-color: #DC143C;
+}
+.btn-1:hover{
+    background-color: #046307; 
+    transform: scale(1.05);
+}
+.btn-2{
+      background-color: #0C090A; 
+      border: none;
+      color: #DBE9FA;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 12px;
+      cursor: pointer;
+      border-radius: 20px; 
+      transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-2:hover{
+    background-color: #046307; 
+    transform: scale(1.05);
+}
+.btn-3{
+      background-color: #616D7E; 
+      border: none;
+      color: #000000;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 12px;
+      cursor: pointer;
+      border-radius: 20px; 
+      transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-3:hover{
+    background-color: #046307; 
+    transform: scale(1.05);
+}
+.btn-4{
+      background-color: #0C090A; 
+      border: none;
+      color: #FEFCFF;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 12px;
+      cursor: pointer;
+      border-radius: 20px; 
+      transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-4:hover{
+    background-color: #046307; 
+    transform: scale(1.05);
+}
+.btn-5{
+      background-color: #5C3C17; 
+      border: none;
+      color: #FFFFF7;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 12px;
+      cursor: pointer;
+      border-radius: 20px; 
+      transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-5:hover{
+    background-color: #046307; 
+    transform: scale(1.05);
+}
+.bottom-footer{
+    color: #A8A9AD;
+    text-align: center;
+}
+
